@@ -3,9 +3,9 @@
 # Environment
   - Java 8
   - maven
-  - some IDE
+  - IDE
   - linux, windows or mac
-  - broswer
+  - browser
 
 # Drivers
 
