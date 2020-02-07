@@ -41,9 +41,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <propertyName>firefox</propertyName>
-                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
