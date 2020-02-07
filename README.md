@@ -22,7 +22,7 @@ For example, using intelliJ IDEA by JetBrains,
 * Right click on file testng.xml
 * Run
 Example:
-![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/run_ide.PNG)
+![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/run_ide.png)
 
 ##### 2 - Using maven:
 ```sh
