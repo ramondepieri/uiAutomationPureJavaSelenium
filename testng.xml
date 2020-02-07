@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" parallel="classes" thread-count="2" verbose="1">
+    <listeners>
+        <listener class-name="com.hellofresh.challenge.core.suite.TestNGListener" />
+    </listeners>
+
+    <!--environment configs-->
+    <parameter name="url-base" value="http://automationpractice.com" />
+    <parameter name="browser" value="chrome" />
+    <parameter name="generate-test-evidence" value="N"/>
+
+
+    <!--tests data-->
+    <parameter name="product-name" value="Faded Short Sleeve T-shirts" />
+    <parameter name="product-size" value="3" />
+    <parameter name="product-color" value="Blue" />
+
+    <test name="Shopping tests">
+        <classes>
+            <class name="com.hellofresh.challenge.testcase.CheckoutTest" />
+            <class name="com.hellofresh.challenge.testcase.LogInTest" />
+            <class name="com.hellofresh.challenge.testcase.SignInTest" />
+        </classes>
+    </test>
+</suite>

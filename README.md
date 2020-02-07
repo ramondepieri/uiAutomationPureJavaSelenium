@@ -1,1 +1,1 @@
-# uiAutomationPureJavaSelenium
+# uiAutomationJavaSelenium
