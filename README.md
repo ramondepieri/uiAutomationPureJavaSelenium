@@ -9,7 +9,7 @@
 
 # Drivers
 
-The drivers are prepared to work with chrome 79 version and firefox > 60. Each operation system has your own driver. In necessity of update the driver the name should be kept. Example:
+The drivers are prepared to work with chrome 79 version and firefox > 60. Each operational system has your own driver. In necessity of update the driver the name should be kept. Example:
 ![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/drivers.PNG)
 
 # Run the automation
@@ -31,7 +31,7 @@ $ mvn test -f pom.xml
 
 # Test results
 
-The test report can be found in folder project TestReport. This report has a natural language with the tests steps, screenshots, trhow exceptions etc...
+The test report can be found in folder project TestReport. This report has a natural language with the tests steps, screenshots, throw exceptions etc...
 ![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/report1.PNG)
 
 ###### Report example:
@@ -44,7 +44,7 @@ All automation config are made in testng.xml file.
 #### automation config:
  * thread-count -> you should specify a number to run parallel tests.
  * url-base -> to change the url that will be tested.
- * browser -> change de broswer
+ * browser -> change de browser
  * generate-test-evidence -> "N" or "Y". By default, the screenshots working only when the test fail. But if this option be equals "Y" the test that successed will take a screenshot to evidence the test.
 
 #### test data config:
@@ -65,6 +65,6 @@ The java and files are organized in this way:
  * page -> all pages of automation. The project is using PageObject pattern
  * testcase -> the project tests
  * resources -> drivers
- * 
+
 Example:
 ![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/project_structure.PNG)
