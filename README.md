@@ -32,7 +32,7 @@ $ mvn test -f pom.xml
 # Test results
 
 The test report can be found in folder project TestReport. This report has a natural language with the tests steps, screenshots, throw exceptions etc...
-![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/report1.PNG)
+![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/report1.png)
 
 ###### Report example:
 ![alt text](https://raw.githubusercontent.com/ramondepieri/uiAutomationPureJavaSelenium/master/documentation/report2.PNG)
